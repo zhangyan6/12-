@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="keywords" content="index">
+ 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+		<meta name="apple-mobile-web-app-title" content="Amaze UI" />
+		<link rel="stylesheet" href="css/amazeui.min.css"/>
+		<link rel="stylesheet" href="css/admin.css">
+		<link rel="stylesheet" href="css/mystyle.css">
+    	<script src="js/jquery.min.js"></script>
+    	<script src="js/handlebars.min.js"></script>
+    	<script src="js/amui.widget.helper.js"></script>
+    	<script src="js/amazeui.min.js"></script>
+		<title>知了</title>
+		<style> 
+    	@font-face {
+    		font-family: 'MyFont';
+    		src: url('fonts/YGYXSZITI2.0.TTF');
+    		}
+    	body{
+    		font-family:MyFont;
+    	}
+    	div a{
+    		font-family:MyFont;
+    	}
+    	.am-list li{
+    		 background-color:rgba(0,0,0,0);
+    	}
+        </style>
+	</head>
+	<body>
+	    <div data-am-widget="tabs" class="am-tabs am-tabs-d2">
+	    	
+	    <!-- 顶部 -->
+          <ul class="am-tabs-nav am-cf">
+            <li class="am-active"><a href="[data-tab-panel-0]">八卦</a></li>
+            <li class=""><a href="[data-tab-panel-1]">二手市场</a></li>
+          </ul>
+          
+          <!-- 内容 -->
+          <div class="am-tabs-bd">
+            <div data-tab-panel-0 class="am-tab-panel am-active">
+  		  	    <ul class="am-comments-list">
+                  <li class="am-comment">
+                    <a href="#">
+                      <img src="http://s.amazeui.org/media/i/demos/bw-2014-06-19.jpg?imageView/1/w/96/h/96/q/80" alt="" class="am-comment-avatar" width="48" height="48">
+                    </a>
+                    <div class="am-comment-main">
+                      <header class="am-comment-hd">
+                        <div class="am-comment-meta">
+                          <a href="#" class="am-comment-author">路人甲</a> 发表于 <time datetime="2017-04-28T04:54:29-07:00" title="2017年4月27日 下午7:54 格林尼治标准时间+0800">2014-7-12 15:30</time>
+                        </div>
+                      </header>
+                      <div class="am-comment-bd">
+                        <p>我不想敲代码</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="am-comment">
+                    <a href="#">
+                      <img src="http://s.amazeui.org/media/i/demos/bw-2014-06-19.jpg?imageView/1/w/96/h/96/q/80" alt="" class="am-comment-avatar" width="48" height="48">
+                    </a>
+                    <div class="am-comment-main">
+                      <header class="am-comment-hd">
+                        <div class="am-comment-meta">
+                          <a href="#" class="am-comment-author">路人乙</a> 发表于 <time datetime="2017-05-27T04:54:29-07:00" title="2017年5月27日 下午7:54 格林尼治标准时间+0800">2014-7-13 0:03</time>
+                        </div>
+                      </header>
+                      <div class="am-comment-bd">
+                        <p>同意楼上，我也不想敲代码</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="am-comment">
+                    <a href="#">
+                      <img src="http://s.amazeui.org/media/i/demos/bw-2014-06-19.jpg?imageView/1/w/96/h/96/q/80" alt="" class="am-comment-avatar" width="48" height="48">
+                    </a>
+                    <div class="am-comment-main">
+                      <header class="am-comment-hd">
+                        <div class="am-comment-meta">
+                          <a href="#" class="am-comment-author">路人乙</a> 发表于 <time datetime="2017-05-27T04:54:29-07:00" title="2017年5月27日 下午7:54 格林尼治标准时间+0800">2014-7-13 0:03</time>
+                        </div>
+                      </header>
+                      <div class="am-comment-bd">
+                        <p>你们都不弄，那岂不是没人当挨踢狗了！</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="am-comment">
+                    <a href="#">
+                      <img src="http://s.amazeui.org/media/i/demos/bw-2014-06-19.jpg?imageView/1/w/96/h/96/q/80" alt="" class="am-comment-avatar" width="48" height="48">
+                    </a>
+                    <div class="am-comment-main">
+                      <header class="am-comment-hd">
+                        <div class="am-comment-meta">
+                          <a href="#" class="am-comment-author">路人乙</a> 发表于 <time datetime="2017-05-27T04:54:29-07:00" title="2017年5月27日 下午7:54 格林尼治标准时间+0800">2014-7-13 0:03</time>
+                        </div>
+                      </header>
+                      <div class="am-comment-bd">
+                        <p>我不管，反正我不弄</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="am-comment">
+                    <a href="#">
+                      <img src="http://s.amazeui.org/media/i/demos/bw-2014-06-19.jpg?imageView/1/w/96/h/96/q/80" alt="" class="am-comment-avatar" width="48" height="48">
+                    </a>
+                    <div class="am-comment-main">
+                      <header class="am-comment-hd">
+                        <div class="am-comment-meta">
+                          <a href="#" class="am-comment-author">路人乙</a> 发表于 <time datetime="2017-05-27T04:54:29-07:00" title="2017年5月27日 下午7:54 格林尼治标准时间+0800">2014-7-13 0:03</time>
+                        </div>
+                      </header>
+                      <div class="am-comment-bd">
+                        <p>搬小板凳，吃瓜</p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                
+                <!--分页符-->
+                <ul data-am-widget="pagination"class="am-pagination am-pagination-select">
+                  <li class="am-pagination-prev ">
+                    <a href="#" class="">上一页</a>
+                  </li>
+                    <li class="am-pagination-select">
+                      <select>
+                          <option value="#" class="">1/</option>
+                          <option value="#" class="">2/</option>
+                          <option value="#" class="">3/</option>
+                      </select>
+                    </li>
+                    <li class="am-pagination-next ">
+                      <a href="#" class="">下一页</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div data-tab-panel-1 class="am-tab-panel ">
+              <div data-am-widget="list_news" class="am-list-news am-list-news-default" >
+                <div class="am-list-news-hd am-cf">
+                  <a href="#" class="">
+                    <h2>淘宝贝</h2>
+                  </a>
+                </div>
+                <div class="am-list-news-bd">
+                  <ul class="am-list">
+                    <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
+                      <a href="#" class="">
+                      	<div class="am-u-sm-4 am-list-thumb">
+                          <img src="img/1.JPG"/>
+                        </div>
+                        <div class=" am-u-sm-8 am-list-main">
+                          <h3 class="am-list-item-hd">
+                          	  ￥30.00
+                          </h3>
+                          <div class="am-list-item-text">
+                          	学姐英语从四级没过到考研75分的逆袭秘籍，绝版英语笔记，欢迎来议价~~~
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
+                      <a href="#" class="">
+                      	<div class="am-u-sm-4 am-list-thumb">
+                          <img src="img/2.JPG"/>
+                        </div>
+                        <div class=" am-u-sm-8 am-list-main">
+                          <h3 class="am-list-item-hd">
+                          	￥10.00
+                          </h3>
+                          <div class="am-list-item-text">
+                          	狼图腾正版书，百分之99成新，有看上的吗。。。
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
+                      <a href="#" class="">
+                      	<div class="am-u-sm-4 am-list-thumb">
+                          <img src="img/3.JPG"/>
+                        </div>
+                        <div class=" am-u-sm-8 am-list-main">
+                          <h3 class="am-list-item-hd">
+                          	￥23.00
+                          </h3>
+                          <div class="am-list-item-text">
+                          	公务员教材，上附课程笔记，八成新哟~要考公的看过来，价格可以私聊再议
+                          </div>
+                        </div> 
+                      </a>
+                    </li>
+                    <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
+                      <a href="#" class="">
+                      	<div class="am-u-sm-4 am-list-thumb">
+                          <img src="img/1.JPG"/>
+                        </div>
+                        <div class=" am-u-sm-8 am-list-main">
+                          <h3 class="am-list-item-hd">
+                          	  ￥30.00
+                          </h3>
+                          <div class="am-list-item-text">
+                          	学姐英语从四级没过到考研75分的逆袭秘籍，绝版英语笔记，欢迎来议价~~~
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              
+              <!--分页符-->
+                <ul data-am-widget="pagination"class="am-pagination am-pagination-select">
+                  <li class="am-pagination-prev ">
+                    <a href="#" class="">上一页</a>
+                  </li>
+                    <li class="am-pagination-select">
+                      <select>
+                          <option value="#" class="">1/</option>
+                          <option value="#" class="">2/</option>
+                          <option value="#" class="">3/</option>
+                      </select>
+                    </li>
+                    <li class="am-pagination-next ">
+                      <a href="#" class="">下一页</a>
+                    </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+	  
+	  <!-- 底部 -->
+	  <div data-am-widget="navbar" class="am-cf am-navbar" id="nav">
+        <ul class="am-navbar-nav am-cf am-avg-sm-4">
+          <li>
+            <a href="#">
+              <span><img src="img/button1.png" /></span>
+              <span class="am-navbar-label">课程表</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span><img src="img/button3.png" /></span>
+              <span class="am-navbar-label">新鲜事</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span><img src="img/button2.png" /></span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span><img src="img/button4.png" /></span>
+              <span class="am-navbar-label">聊天</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span><img src="img/button5.png" /></span>
+              <span class="am-navbar-label">个人</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      
+  </body>
+</html>
