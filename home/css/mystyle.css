@@ -1,0 +1,16 @@
+body{
+	background:url(../img/background.png) no-repeat;
+	background-size:100% 100%;
+}
+#nav{
+	background:url(../img/nav.png);
+	background-size:100% 100%;
+}
+#nav a img{
+	width:55%;
+	height:65%;
+}
+.am-tabs-nav{
+	background:url(../img/header.png) no-repeat;
+	background-size:100% 100%;
+}
