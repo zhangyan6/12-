@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="keywords" content="index">
+ 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+		<meta name="apple-mobile-web-app-title" content="Amaze UI" />
+		<link rel="stylesheet" href="css/amazeui.min.css"/>
+		<link rel="stylesheet" href="css/admin.css">
+		<link rel="stylesheet" href="css/mystyle.css">
+		<title>知了</title>
+		<style> 
+    	@font-face {
+    		font-family: 'MyFont';
+    		src: url('fonts/YGYXSZITI2.0.TTF');
+    		}
+    	body{
+    		font-family:MyFont;font-size: 2px;
+    	}
+    	div a{
+    		font-family:MyFont;
+    	}
+    	.head{
+    		background:url(img/header.png) no-repeat;
+    		background-size:100% 100%;
+    	}
+    	.head h1{
+    		display:inline;
+    		font-size:2.5rem;
+    		padding-left:17%;
+    	}
+    	.am-scrollable-vertical{
+    		height:84%;
+    	}
+        </style>
+        
+	</head>
+	<body>
+	  <!-- 顶部 -->
+	  <div class="head">
+	  	<span>
+	  		<a href="#"><img src="img/button-back.png" style="width:20%;"/></a>
+	  		<h1>课程表</h1>
+	  	</span>
+	  	
+	  </div>
+	  
+	  <!-- 底部 -->
+	  <div data-am-widget="navbar" class="am-cf am-navbar" id="nav">
+        <ul class="am-navbar-nav am-cf am-avg-sm-4">
+          <li>
+            <a href="#">
+              <span><img src="img/button1.png" /></span>
+              <span class="am-navbar-label">课程表</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span><img src="img/button3.png" /></span>
+              <span class="am-navbar-label">新鲜事</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span><img src="img/button2.png" /></span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span><img src="img/button4.png" /></span>
+              <span class="am-navbar-label">聊天</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span><img src="img/button5.png" /></span>
+              <span class="am-navbar-label">个人</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- syllabus课程表 -->
+<div class="am-scrollable-vertical">
+     <table class="am-table am-table-bordered am-table-striped am-table-hover am-table-centered">
+    <thead>
+        <tr>
+            <td colspan="8" class="am-text-middle">
+            <select>
+               <option value ="2014-2015">2014-2015</option>
+               <option value ="2015-2016">2015-2016</option>
+               <option value="2016-2017">2016-2017</option>
+               <option value="2017-2018">2017-2018</option>
+            </select>
+            学年第
+            <select>
+               <option value ="1">1</option>
+               <option value ="2">2</option>
+               <option value="3">3</option>
+            </select>
+
+            学期学生个人课程表</td>           
+        </tr>
+        <tr>
+            <td colspan="2">时间</td>
+            <th>星期一</th>
+            <th>星期二</th>
+            <th>星期三</th>
+            <th>星期四</th>
+            <th>星期五</th>
+            <th>星期六</th>
+            <th>星期日</th>
+            
+        </tr>
+
+    </thead>
+    <tbody>
+        
+        <tr class="am-active">
+            <td rowspan="5" class="am-text-middle am-text-justify">上午</td>
+            <td class="am-text-justify">第1节</td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+        </tr>
+        <tr class="am-active">
+            <td>第2节</td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+        </tr>
+        <tr class="am-active">
+            <td>第3节</td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+        </tr>
+        <tr class="am-active">
+            <td>第4节</td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+        </tr>
+        <tr class="am-active">
+            <td>第5节</td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+        </tr>
+        
+        <tr class="am-active">
+            <td rowspan="5" class="am-text-middle">下午</td>
+            <td>第6节</td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+        </tr>
+        <tr class="am-active">
+            <td>第7节</td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+        </tr>
+        <tr class="am-active">
+            <td>第8节</td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+        </tr>
+        <tr class="am-active">
+            <td>第9节</td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+        </tr>
+        <tr class="am-active">
+            <td>第10节</td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+        </tr>
+        <tr class="am-active">
+            <td rowspan="5" class="am-text-middle">晚上</td>
+            <td>第11节</td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+        </tr>
+        <tr class="am-active">
+            <td>第12节</td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+        </tr>
+        <tr class="am-active">
+            <td>第13节</td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+            <td class="am-text-justify"><a href="">课程<br/> 地点<br/> 时间<br/></a></td>
+        </tr>
+    </tbody>
+</table>
+</div>  
+
+
+
+  </body>
+</html>
