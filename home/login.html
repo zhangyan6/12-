@@ -13,8 +13,8 @@
 		<link rel="stylesheet" href="css/mystyle.css">
     	<script src="js/jquery.min.js"></script>
     	<script src="js/handlebars.min.js"></script>
-    	<script src="js/amui.widget.helper.js"></script>
     	<script src="js/amazeui.min.js"></script>
+    	<script src="js/controller.js"></script>
 		<title>知了</title>
 		<style> 
     	@font-face {
@@ -22,15 +22,16 @@
     		src: url('fonts/YGYXSZITI2.0.TTF');
     		}
     	body{
-    		font-family:MyFont;
+    		font-family: "楷体";
     	}
-    	div a{
+    	.am-cf{
     		font-family:MyFont;
     	}
     	.am-list li{
     		 background-color:rgba(0,0,0,0);
     	}
     	.head{
+    		font-family:MyFont;
     		background:url(img/header.png) no-repeat;
     		background-size:100% 100%;
     	}
@@ -129,10 +130,15 @@
           </div>
 
           <div class="am-form-group" id="buttons">
-            <button type="submit" class="am-btn am-btn-default am-round">登录</button>
-            <button type="submit" class="am-btn am-btn-default am-round">注册</button>
+            <button type="submit" class="am-btn am-btn-secondary am-round" onclick="infoJumpTo">登录</button>
+            <a href="#"><button type="submit" class="am-btn am-btn-secondary am-round">注册</button></a>
           </div>
         </form>
      </div>
   </body>
+  <script type="text/javascript">
+    $(function() {
+      
+    });
+  </script>
 </html>

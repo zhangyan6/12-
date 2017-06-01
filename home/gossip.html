@@ -22,14 +22,17 @@
     		src: url('fonts/YGYXSZITI2.0.TTF');
     		}
     	body{
-    		font-family:MyFont;
+    		font-family: "楷体";
     	}
-    	div a{
+    	.am-cf{
     		font-family:MyFont;
     	}
     	.am-list li{
     		 background-color:rgba(0,0,0,0);
     	}
+      .am-scrollable-vertical{
+        height:560px;
+      }
         </style>
 	</head>
 	<body>
@@ -42,8 +45,8 @@
           </ul>
           
           <!-- 内容 -->
-          <div class="am-tabs-bd">
-            <div data-tab-panel-0 class="am-tab-panel am-active">
+          <div class="am-tabs-bd  ">
+            <div data-tab-panel-0 class="am-tab-panel am-active am-scrollable-vertical">
   		  	    <ul class="am-comments-list">
                   <li class="am-comment">
                     <a href="#">
@@ -139,8 +142,8 @@
                     </li>
                 </ul>
             </div>
-            
-            <div data-tab-panel-1 class="am-tab-panel ">
+          
+            <div data-tab-panel-1 class="am-tab-panel am-scrollable-vertical ">
               <div data-am-widget="list_news" class="am-list-news am-list-news-default" >
                 <div class="am-list-news-hd am-cf">
                   <a href="#" class="">
